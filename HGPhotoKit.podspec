@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'HGPhotoKit'
-    s.version      = '0.0.1'
+    s.version      = '0.0.2'
     s.summary      = 'Hago3.0 图片工具类' 
     s.homepage     = "https://github.com/pengweijunPanda/HGPhotoKit.git"
     s.license      = "MIT"
