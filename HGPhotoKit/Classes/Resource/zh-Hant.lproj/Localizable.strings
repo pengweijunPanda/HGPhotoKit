@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  HGPhotoKit
+
+  Created by pengweijun on 2019/6/19.
+  Copyright © 2019年 彭伟军. All rights reserved.
+*/
+"OK" = "確定";
+"Back" = "返回";
+"Done" = "完成";
+"Sorry" = "抱歉";
+"Cancel" = "取消";
+"Setting" = "設定";
+"Photos" = "照片";
+"Videos" = "視頻";
+"Preview" = "預覽";
+"Full image" = "原圖";
+"Processing..." = "正在處理...";
+"No Photos or Videos" = "沒有照片或影片";
+"Can not use camera" = "無法使用相機";
+"Synchronizing photos from iCloud" = "正在從iCloud同步照片";
+"Can not choose both video and photo" = "選擇照片時不能選擇視頻";
+"Can not choose both photo and GIF" = "選擇照片時不能選擇 GIF";
+"Select the video when in multi state, we will handle the video as a photo" = "多選狀態下選擇視頻，默認將視頻當圖片發送";
+"Can not jump to the privacy settings page, please go to the settings page by self, thank you" = "無法跳轉到隱私設定頁面，請手動前往設定，謝謝";
+
+"Select a maximum of %zd photos" = "你最多只能選擇%zd張照片";
+"Select a minimum of %zd photos" = "請至少選擇%zd張照片";
+"Allow %@ to access your album in \"Settings -> Privacy -> Photos\"" = "請在iPhone的\"設定-隱私權-照片\"選項中，\r允許%@訪問你的手機相冊";
+"Please allow %@ to access your camera in \"Settings -> Privacy -> Camera\"" = "請在iPhone的\"設定-隱私權-相機\"中允許%@訪問相機";

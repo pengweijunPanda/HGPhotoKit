@@ -20,7 +20,6 @@
 		2E65AFCC22BA5E3200D34313 /* UIViewController+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFCA22BA5E3200D34313 /* UIViewController+Image.m */; };
 		2E65AFEC22BA5E4900D34313 /* HGLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFCD22BA5E4600D34313 /* HGLocationManager.m */; };
 		2E65AFED22BA5E4900D34313 /* HGImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFD122BA5E4700D34313 /* HGImageManager.m */; };
-		2E65AFEE22BA5E4900D34313 /* HGImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E65AFD322BA5E4700D34313 /* HGImagePickerController.bundle */; };
 		2E65AFEF22BA5E4900D34313 /* HGPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFD422BA5E4700D34313 /* HGPhotoPickerController.m */; };
 		2E65AFF022BA5E4900D34313 /* HGAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFD622BA5E4700D34313 /* HGAssetModel.m */; };
 		2E65AFF122BA5E4900D34313 /* HGImageCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFDD22BA5E4700D34313 /* HGImageCropManager.m */; };
@@ -34,6 +33,7 @@
 		2E65AFF922BA5E4900D34313 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFE922BA5E4800D34313 /* UIView+Layout.m */; };
 		2E65AFFA22BA5E4900D34313 /* HGProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFEA22BA5E4800D34313 /* HGProgressView.m */; };
 		2E65AFFB22BA5E4900D34313 /* HGAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFEB22BA5E4800D34313 /* HGAssetCell.m */; };
+		2E65B00022BA742900D34313 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E65B00222BA742900D34313 /* Localizable.strings */; };
 		FB2975D9F280DF0F55B68E18 /* Pods_HGPhotoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBF481EB8F2EE8D9C7E78A5 /* Pods_HGPhotoKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -81,7 +81,6 @@
 		2E65AFD022BA5E4700D34313 /* HGImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGImageRequestOperation.h; sourceTree = "<group>"; };
 		2E65AFD122BA5E4700D34313 /* HGImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGImageManager.m; sourceTree = "<group>"; };
 		2E65AFD222BA5E4700D34313 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
-		2E65AFD322BA5E4700D34313 /* HGImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HGImagePickerController.bundle; sourceTree = "<group>"; };
 		2E65AFD422BA5E4700D34313 /* HGPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGPhotoPickerController.m; sourceTree = "<group>"; };
 		2E65AFD522BA5E4700D34313 /* HGLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGLocationManager.h; sourceTree = "<group>"; };
 		2E65AFD622BA5E4700D34313 /* HGAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGAssetModel.m; sourceTree = "<group>"; };
@@ -106,6 +105,16 @@
 		2E65AFE922BA5E4800D34313 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
 		2E65AFEA22BA5E4800D34313 /* HGProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGProgressView.m; sourceTree = "<group>"; };
 		2E65AFEB22BA5E4800D34313 /* HGAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGAssetCell.m; sourceTree = "<group>"; };
+		2E65B00122BA742900D34313 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2E65B00322BA748500D34313 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Main.strings; sourceTree = "<group>"; };
+		2E65B00422BA748500D34313 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		2E65B00522BA748500D34313 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2E65B00622BA74A100D34313 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		2E65B00722BA74A200D34313 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		2E65B00822BA74A200D34313 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		2E65B00922BA74A800D34313 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		2E65B00A22BA74A800D34313 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		2E65B00B22BA74A800D34313 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		5C6CE22840884832CA1754CD /* Pods-HGPhotoKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGPhotoKit.release.xcconfig"; path = "Target Support Files/Pods-HGPhotoKit/Pods-HGPhotoKit.release.xcconfig"; sourceTree = "<group>"; };
 		9376BDF7DC21792AFC0883A9 /* Pods-HGPhotoKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGPhotoKit.debug.xcconfig"; path = "Target Support Files/Pods-HGPhotoKit/Pods-HGPhotoKit.debug.xcconfig"; sourceTree = "<group>"; };
 		97A3AA996B89C9019C21F7BD /* Pods-HGPhotoKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGPhotoKitTests.release.xcconfig"; path = "Target Support Files/Pods-HGPhotoKitTests/Pods-HGPhotoKitTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -174,7 +183,6 @@
 				2E65AF5D22BA57D800D34313 /* ViewController.m */,
 				2E65AFC922BA5E3200D34313 /* Classes */,
 				2E65AF5F22BA57D800D34313 /* Main.storyboard */,
-				2E65AF6222BA57D900D34313 /* Assets.xcassets */,
 				2E65AF6422BA57D900D34313 /* LaunchScreen.storyboard */,
 				2E65AF6722BA57D900D34313 /* Info.plist */,
 				2E65AF6822BA57D900D34313 /* main.m */,
@@ -203,6 +211,7 @@
 		2E65AFC922BA5E3200D34313 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2E65B00C22BA758300D34313 /* Resource */,
 				2E65AFCB22BA5E3200D34313 /* UIViewController+Image.h */,
 				2E65AFCA22BA5E3200D34313 /* UIViewController+Image.m */,
 				2E65AFE822BA5E4800D34313 /* HGAssetCell.h */,
@@ -215,7 +224,6 @@
 				2E65AFDD22BA5E4700D34313 /* HGImageCropManager.m */,
 				2E65AFD922BA5E4700D34313 /* HGImageManager.h */,
 				2E65AFD122BA5E4700D34313 /* HGImageManager.m */,
-				2E65AFD322BA5E4700D34313 /* HGImagePickerController.bundle */,
 				2E65AFCF22BA5E4700D34313 /* HGImagePickerController.h */,
 				2E65AFE022BA5E4800D34313 /* HGImagePickerController.m */,
 				2E65AFD022BA5E4700D34313 /* HGImageRequestOperation.h */,
@@ -238,6 +246,15 @@
 				2E65AFE922BA5E4800D34313 /* UIView+Layout.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		2E65B00C22BA758300D34313 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2E65B00222BA742900D34313 /* Localizable.strings */,
+				2E65AF6222BA57D900D34313 /* Assets.xcassets */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		654CFF40E990AF1EC27FFB99 /* Pods */ = {
@@ -329,6 +346,7 @@
 		2E65AF4E22BA57D800D34313 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HG;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "彭伟军";
 				TargetAttributes = {
@@ -352,6 +370,9 @@
 			knownRegions = (
 				en,
 				Base,
+				vi,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 2E65AF4D22BA57D800D34313;
 			productRefGroup = 2E65AF5722BA57D800D34313 /* Products */;
@@ -370,9 +391,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E65B00022BA742900D34313 /* Localizable.strings in Resources */,
 				2E65AF6622BA57D900D34313 /* LaunchScreen.storyboard in Resources */,
 				2E65AF6322BA57D900D34313 /* Assets.xcassets in Resources */,
-				2E65AFEE22BA5E4900D34313 /* HGImagePickerController.bundle in Resources */,
 				2E65AF6122BA57D800D34313 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -542,6 +563,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				2E65AF6022BA57D800D34313 /* Base */,
+				2E65B00322BA748500D34313 /* vi */,
+				2E65B00622BA74A100D34313 /* zh-Hans */,
+				2E65B00922BA74A800D34313 /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -550,8 +574,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				2E65AF6522BA57D900D34313 /* Base */,
+				2E65B00422BA748500D34313 /* vi */,
+				2E65B00722BA74A200D34313 /* zh-Hans */,
+				2E65B00A22BA74A800D34313 /* zh-Hant */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2E65B00222BA742900D34313 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E65B00122BA742900D34313 /* en */,
+				2E65B00522BA748500D34313 /* vi */,
+				2E65B00822BA74A200D34313 /* zh-Hans */,
+				2E65B00B22BA74A800D34313 /* zh-Hant */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -561,6 +599,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -620,6 +659,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

@@ -10,6 +10,9 @@ Pod::Spec.new do |s|
     s.source_files = "HGPhotoKit/Classes/*.{h,m}" 
     s.requires_arc = true 
 
-
+    s.resource_bundles = {
+    'HGPhotoKit' =>['HGPhotoKit/Classes/Resource/*.lproj', 
+                      'HGPhotoKit/Classes/Resource/Assets.xcassets']
+    }
     s.dependency 'YYKit'
 end

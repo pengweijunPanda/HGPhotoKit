@@ -12,10 +12,10 @@
 @implementation NSBundle (HGImagePicker)
 
 + (NSBundle *)hg_imagePickerBundle {
-    NSBundle *bundle = [NSBundle bundleForClass:[HGImagePickerController class]];
-    NSURL *url = [bundle URLForResource:@"HGImagePickerController" withExtension:@"bundle"];
-    bundle = [NSBundle bundleWithURL:url];
-    return bundle;
+//    NSBundle *bundle = [NSBundle bundleForClass:[HGImagePickerController class]];
+//    NSURL *url = [bundle URLForResource:@"HGImagePickerController" withExtension:@"bundle"];
+//    bundle = [NSBundle bundleWithURL:url];
+    return [NSBundle mainBundle];
 }
 
 + (NSString *)hg_localizedStringForKey:(NSString *)key {
@@ -23,7 +23,7 @@
 }
 
 + (NSString *)hg_localizedStringForKey:(NSString *)key value:(NSString *)value {
-    NSBundle *bundle = [HGImagePickerConfig sharedInstance].languageBundle;
+    NSBundle *bundle = [NSBundle mainBundle];
     NSString *value1 = [bundle localizedStringForKey:key value:value table:nil];
     return value1;
 }
