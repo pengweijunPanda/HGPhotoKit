@@ -1,2 +1,0 @@
-# PPTestPhotoKit
-PPTestPhotoKit1PPTestPhotoKit2PPTestPhotoKit3
