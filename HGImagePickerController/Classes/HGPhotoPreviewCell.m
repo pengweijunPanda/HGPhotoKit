@@ -136,8 +136,6 @@
         _imageView.clipsToBounds = YES;
         [_imageContainerView addSubview:_imageView];
         
-        _animatedImageView = [YYAnimatedImageView new];;
-        [_imageContainerView addSubview:_animatedImageView];
         
         
         UITapGestureRecognizer *tap1 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(singleTap:)];
@@ -276,7 +274,6 @@
     [_scrollView scrollRectToVisible:self.bounds animated:NO];
     _scrollView.alwaysBounceVertical = _imageContainerView.hg_height <= self.hg_height ? NO : YES;
     _imageView.frame = _imageContainerView.bounds;
-    _animatedImageView.frame = _imageContainerView.bounds;
     
     [self refreshScrollViewContentSize];
 }
