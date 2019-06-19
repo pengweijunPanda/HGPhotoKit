@@ -41,5 +41,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>This lets you create videos.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>App需要您的同意,才能保存图片到您的相册</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This lets you edit your videos and save videos.</string>
+	<key>Photo Library Additions Usage Description</key>
+	<string>用于保存照片至相册</string>
 </dict>
 </plist>

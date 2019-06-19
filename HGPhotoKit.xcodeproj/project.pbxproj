@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		176FBCAF200C11F816A79055 /* Pods_HGPhotoKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D28CBC452D06F63A406525 /* Pods_HGPhotoKitTests.framework */; };
+		1C846782943078AFDDA2AF46 /* Pods_HGPhotoKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246E151D0A47B45BA3FE2CD5 /* Pods_HGPhotoKitUITests.framework */; };
 		2E65AF5B22BA57D800D34313 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AF5A22BA57D800D34313 /* AppDelegate.m */; };
 		2E65AF5E22BA57D800D34313 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AF5D22BA57D800D34313 /* ViewController.m */; };
 		2E65AF6122BA57D800D34313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E65AF5F22BA57D800D34313 /* Main.storyboard */; };
@@ -15,6 +17,24 @@
 		2E65AF6922BA57D900D34313 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AF6822BA57D900D34313 /* main.m */; };
 		2E65AF7322BA57D900D34313 /* HGPhotoKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AF7222BA57D900D34313 /* HGPhotoKitTests.m */; };
 		2E65AF7E22BA57D900D34313 /* HGPhotoKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AF7D22BA57D900D34313 /* HGPhotoKitUITests.m */; };
+		2E65AFCC22BA5E3200D34313 /* UIViewController+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFCA22BA5E3200D34313 /* UIViewController+Image.m */; };
+		2E65AFEC22BA5E4900D34313 /* HGLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFCD22BA5E4600D34313 /* HGLocationManager.m */; };
+		2E65AFED22BA5E4900D34313 /* HGImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFD122BA5E4700D34313 /* HGImageManager.m */; };
+		2E65AFEE22BA5E4900D34313 /* HGImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E65AFD322BA5E4700D34313 /* HGImagePickerController.bundle */; };
+		2E65AFEF22BA5E4900D34313 /* HGPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFD422BA5E4700D34313 /* HGPhotoPickerController.m */; };
+		2E65AFF022BA5E4900D34313 /* HGAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFD622BA5E4700D34313 /* HGAssetModel.m */; };
+		2E65AFF122BA5E4900D34313 /* HGImageCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFDD22BA5E4700D34313 /* HGImageCropManager.m */; };
+		2E65AFF222BA5E4900D34313 /* HGVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFDF22BA5E4800D34313 /* HGVideoPlayerController.m */; };
+		2E65AFF322BA5E4900D34313 /* HGImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFE022BA5E4800D34313 /* HGImagePickerController.m */; };
+		2E65AFF422BA5E4900D34313 /* HGImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFE222BA5E4800D34313 /* HGImageRequestOperation.m */; };
+		2E65AFF522BA5E4900D34313 /* HGPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFE322BA5E4800D34313 /* HGPhotoPreviewController.m */; };
+		2E65AFF622BA5E4900D34313 /* NSBundle+HGImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFE422BA5E4800D34313 /* NSBundle+HGImagePicker.m */; };
+		2E65AFF722BA5E4900D34313 /* HGGifPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFE522BA5E4800D34313 /* HGGifPhotoPreviewController.m */; };
+		2E65AFF822BA5E4900D34313 /* HGPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFE622BA5E4800D34313 /* HGPhotoPreviewCell.m */; };
+		2E65AFF922BA5E4900D34313 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFE922BA5E4800D34313 /* UIView+Layout.m */; };
+		2E65AFFA22BA5E4900D34313 /* HGProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFEA22BA5E4800D34313 /* HGProgressView.m */; };
+		2E65AFFB22BA5E4900D34313 /* HGAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65AFEB22BA5E4800D34313 /* HGAssetCell.m */; };
+		FB2975D9F280DF0F55B68E18 /* Pods_HGPhotoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBF481EB8F2EE8D9C7E78A5 /* Pods_HGPhotoKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		246E151D0A47B45BA3FE2CD5 /* Pods_HGPhotoKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGPhotoKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		282C20B4FE33303CAE3627B8 /* Pods-HGPhotoKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGPhotoKitUITests.release.xcconfig"; path = "Target Support Files/Pods-HGPhotoKitUITests/Pods-HGPhotoKitUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2E65AF5622BA57D800D34313 /* HGPhotoKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGPhotoKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E65AF5922BA57D800D34313 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E65AF5A22BA57D800D34313 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +73,46 @@
 		2E65AF7922BA57D900D34313 /* HGPhotoKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HGPhotoKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E65AF7D22BA57D900D34313 /* HGPhotoKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGPhotoKitUITests.m; sourceTree = "<group>"; };
 		2E65AF7F22BA57D900D34313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E65AFCA22BA5E3200D34313 /* UIViewController+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Image.m"; sourceTree = "<group>"; };
+		2E65AFCB22BA5E3200D34313 /* UIViewController+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Image.h"; sourceTree = "<group>"; };
+		2E65AFCD22BA5E4600D34313 /* HGLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGLocationManager.m; sourceTree = "<group>"; };
+		2E65AFCE22BA5E4600D34313 /* HGPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGPhotoPreviewCell.h; sourceTree = "<group>"; };
+		2E65AFCF22BA5E4700D34313 /* HGImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGImagePickerController.h; sourceTree = "<group>"; };
+		2E65AFD022BA5E4700D34313 /* HGImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGImageRequestOperation.h; sourceTree = "<group>"; };
+		2E65AFD122BA5E4700D34313 /* HGImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGImageManager.m; sourceTree = "<group>"; };
+		2E65AFD222BA5E4700D34313 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		2E65AFD322BA5E4700D34313 /* HGImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HGImagePickerController.bundle; sourceTree = "<group>"; };
+		2E65AFD422BA5E4700D34313 /* HGPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGPhotoPickerController.m; sourceTree = "<group>"; };
+		2E65AFD522BA5E4700D34313 /* HGLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGLocationManager.h; sourceTree = "<group>"; };
+		2E65AFD622BA5E4700D34313 /* HGAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGAssetModel.m; sourceTree = "<group>"; };
+		2E65AFD722BA5E4700D34313 /* HGPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGPhotoPickerController.h; sourceTree = "<group>"; };
+		2E65AFD822BA5E4700D34313 /* HGVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGVideoPlayerController.h; sourceTree = "<group>"; };
+		2E65AFD922BA5E4700D34313 /* HGImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGImageManager.h; sourceTree = "<group>"; };
+		2E65AFDA22BA5E4700D34313 /* HGAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGAssetModel.h; sourceTree = "<group>"; };
+		2E65AFDB22BA5E4700D34313 /* HGImageCropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGImageCropManager.h; sourceTree = "<group>"; };
+		2E65AFDC22BA5E4700D34313 /* HGGifPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGGifPhotoPreviewController.h; sourceTree = "<group>"; };
+		2E65AFDD22BA5E4700D34313 /* HGImageCropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGImageCropManager.m; sourceTree = "<group>"; };
+		2E65AFDE22BA5E4800D34313 /* HGPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGPhotoPreviewController.h; sourceTree = "<group>"; };
+		2E65AFDF22BA5E4800D34313 /* HGVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGVideoPlayerController.m; sourceTree = "<group>"; };
+		2E65AFE022BA5E4800D34313 /* HGImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGImagePickerController.m; sourceTree = "<group>"; };
+		2E65AFE122BA5E4800D34313 /* HGProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGProgressView.h; sourceTree = "<group>"; };
+		2E65AFE222BA5E4800D34313 /* HGImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGImageRequestOperation.m; sourceTree = "<group>"; };
+		2E65AFE322BA5E4800D34313 /* HGPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGPhotoPreviewController.m; sourceTree = "<group>"; };
+		2E65AFE422BA5E4800D34313 /* NSBundle+HGImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+HGImagePicker.m"; sourceTree = "<group>"; };
+		2E65AFE522BA5E4800D34313 /* HGGifPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGGifPhotoPreviewController.m; sourceTree = "<group>"; };
+		2E65AFE622BA5E4800D34313 /* HGPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGPhotoPreviewCell.m; sourceTree = "<group>"; };
+		2E65AFE722BA5E4800D34313 /* NSBundle+HGImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+HGImagePicker.h"; sourceTree = "<group>"; };
+		2E65AFE822BA5E4800D34313 /* HGAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGAssetCell.h; sourceTree = "<group>"; };
+		2E65AFE922BA5E4800D34313 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		2E65AFEA22BA5E4800D34313 /* HGProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGProgressView.m; sourceTree = "<group>"; };
+		2E65AFEB22BA5E4800D34313 /* HGAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGAssetCell.m; sourceTree = "<group>"; };
+		5C6CE22840884832CA1754CD /* Pods-HGPhotoKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGPhotoKit.release.xcconfig"; path = "Target Support Files/Pods-HGPhotoKit/Pods-HGPhotoKit.release.xcconfig"; sourceTree = "<group>"; };
+		9376BDF7DC21792AFC0883A9 /* Pods-HGPhotoKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGPhotoKit.debug.xcconfig"; path = "Target Support Files/Pods-HGPhotoKit/Pods-HGPhotoKit.debug.xcconfig"; sourceTree = "<group>"; };
+		97A3AA996B89C9019C21F7BD /* Pods-HGPhotoKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGPhotoKitTests.release.xcconfig"; path = "Target Support Files/Pods-HGPhotoKitTests/Pods-HGPhotoKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		A644CA1D74C7B5AAA0A7E916 /* Pods-HGPhotoKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGPhotoKitTests.debug.xcconfig"; path = "Target Support Files/Pods-HGPhotoKitTests/Pods-HGPhotoKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDA16FA95D09B02F65484F65 /* Pods-HGPhotoKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGPhotoKitUITests.debug.xcconfig"; path = "Target Support Files/Pods-HGPhotoKitUITests/Pods-HGPhotoKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9D28CBC452D06F63A406525 /* Pods_HGPhotoKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGPhotoKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBF481EB8F2EE8D9C7E78A5 /* Pods_HGPhotoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGPhotoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB2975D9F280DF0F55B68E18 /* Pods_HGPhotoKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				176FBCAF200C11F816A79055 /* Pods_HGPhotoKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C846782943078AFDDA2AF46 /* Pods_HGPhotoKitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +150,8 @@
 				2E65AF7122BA57D900D34313 /* HGPhotoKitTests */,
 				2E65AF7C22BA57D900D34313 /* HGPhotoKitUITests */,
 				2E65AF5722BA57D800D34313 /* Products */,
+				654CFF40E990AF1EC27FFB99 /* Pods */,
+				E3685B203D8B8175B2D1C0DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +172,7 @@
 				2E65AF5A22BA57D800D34313 /* AppDelegate.m */,
 				2E65AF5C22BA57D800D34313 /* ViewController.h */,
 				2E65AF5D22BA57D800D34313 /* ViewController.m */,
+				2E65AFC922BA5E3200D34313 /* Classes */,
 				2E65AF5F22BA57D800D34313 /* Main.storyboard */,
 				2E65AF6222BA57D900D34313 /* Assets.xcassets */,
 				2E65AF6422BA57D900D34313 /* LaunchScreen.storyboard */,
@@ -132,6 +200,69 @@
 			path = HGPhotoKitUITests;
 			sourceTree = "<group>";
 		};
+		2E65AFC922BA5E3200D34313 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2E65AFCB22BA5E3200D34313 /* UIViewController+Image.h */,
+				2E65AFCA22BA5E3200D34313 /* UIViewController+Image.m */,
+				2E65AFE822BA5E4800D34313 /* HGAssetCell.h */,
+				2E65AFEB22BA5E4800D34313 /* HGAssetCell.m */,
+				2E65AFDA22BA5E4700D34313 /* HGAssetModel.h */,
+				2E65AFD622BA5E4700D34313 /* HGAssetModel.m */,
+				2E65AFDC22BA5E4700D34313 /* HGGifPhotoPreviewController.h */,
+				2E65AFE522BA5E4800D34313 /* HGGifPhotoPreviewController.m */,
+				2E65AFDB22BA5E4700D34313 /* HGImageCropManager.h */,
+				2E65AFDD22BA5E4700D34313 /* HGImageCropManager.m */,
+				2E65AFD922BA5E4700D34313 /* HGImageManager.h */,
+				2E65AFD122BA5E4700D34313 /* HGImageManager.m */,
+				2E65AFD322BA5E4700D34313 /* HGImagePickerController.bundle */,
+				2E65AFCF22BA5E4700D34313 /* HGImagePickerController.h */,
+				2E65AFE022BA5E4800D34313 /* HGImagePickerController.m */,
+				2E65AFD022BA5E4700D34313 /* HGImageRequestOperation.h */,
+				2E65AFE222BA5E4800D34313 /* HGImageRequestOperation.m */,
+				2E65AFD522BA5E4700D34313 /* HGLocationManager.h */,
+				2E65AFCD22BA5E4600D34313 /* HGLocationManager.m */,
+				2E65AFD722BA5E4700D34313 /* HGPhotoPickerController.h */,
+				2E65AFD422BA5E4700D34313 /* HGPhotoPickerController.m */,
+				2E65AFCE22BA5E4600D34313 /* HGPhotoPreviewCell.h */,
+				2E65AFE622BA5E4800D34313 /* HGPhotoPreviewCell.m */,
+				2E65AFDE22BA5E4800D34313 /* HGPhotoPreviewController.h */,
+				2E65AFE322BA5E4800D34313 /* HGPhotoPreviewController.m */,
+				2E65AFE122BA5E4800D34313 /* HGProgressView.h */,
+				2E65AFEA22BA5E4800D34313 /* HGProgressView.m */,
+				2E65AFD822BA5E4700D34313 /* HGVideoPlayerController.h */,
+				2E65AFDF22BA5E4800D34313 /* HGVideoPlayerController.m */,
+				2E65AFE722BA5E4800D34313 /* NSBundle+HGImagePicker.h */,
+				2E65AFE422BA5E4800D34313 /* NSBundle+HGImagePicker.m */,
+				2E65AFD222BA5E4700D34313 /* UIView+Layout.h */,
+				2E65AFE922BA5E4800D34313 /* UIView+Layout.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		654CFF40E990AF1EC27FFB99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9376BDF7DC21792AFC0883A9 /* Pods-HGPhotoKit.debug.xcconfig */,
+				5C6CE22840884832CA1754CD /* Pods-HGPhotoKit.release.xcconfig */,
+				A644CA1D74C7B5AAA0A7E916 /* Pods-HGPhotoKitTests.debug.xcconfig */,
+				97A3AA996B89C9019C21F7BD /* Pods-HGPhotoKitTests.release.xcconfig */,
+				DDA16FA95D09B02F65484F65 /* Pods-HGPhotoKitUITests.debug.xcconfig */,
+				282C20B4FE33303CAE3627B8 /* Pods-HGPhotoKitUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E3685B203D8B8175B2D1C0DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFBF481EB8F2EE8D9C7E78A5 /* Pods_HGPhotoKit.framework */,
+				E9D28CBC452D06F63A406525 /* Pods_HGPhotoKitTests.framework */,
+				246E151D0A47B45BA3FE2CD5 /* Pods_HGPhotoKitUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +270,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E65AF8222BA57D900D34313 /* Build configuration list for PBXNativeTarget "HGPhotoKit" */;
 			buildPhases = (
+				160A15D13AF9194BCCB537D2 /* [CP] Check Pods Manifest.lock */,
 				2E65AF5222BA57D800D34313 /* Sources */,
 				2E65AF5322BA57D800D34313 /* Frameworks */,
 				2E65AF5422BA57D800D34313 /* Resources */,
+				470D1288BAB650BB0E6DA3E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,6 +289,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E65AF8522BA57D900D34313 /* Build configuration list for PBXNativeTarget "HGPhotoKitTests" */;
 			buildPhases = (
+				FFE8CF26FD90859944384C95 /* [CP] Check Pods Manifest.lock */,
 				2E65AF6A22BA57D900D34313 /* Sources */,
 				2E65AF6B22BA57D900D34313 /* Frameworks */,
 				2E65AF6C22BA57D900D34313 /* Resources */,
@@ -174,6 +308,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E65AF8822BA57D900D34313 /* Build configuration list for PBXNativeTarget "HGPhotoKitUITests" */;
 			buildPhases = (
+				F36BFC51DC48AEB76C776D44 /* [CP] Check Pods Manifest.lock */,
 				2E65AF7522BA57D900D34313 /* Sources */,
 				2E65AF7622BA57D900D34313 /* Frameworks */,
 				2E65AF7722BA57D900D34313 /* Resources */,
@@ -237,6 +372,7 @@
 			files = (
 				2E65AF6622BA57D900D34313 /* LaunchScreen.storyboard in Resources */,
 				2E65AF6322BA57D900D34313 /* Assets.xcassets in Resources */,
+				2E65AFEE22BA5E4900D34313 /* HGImagePickerController.bundle in Resources */,
 				2E65AF6122BA57D800D34313 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,14 +393,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		160A15D13AF9194BCCB537D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HGPhotoKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		470D1288BAB650BB0E6DA3E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HGPhotoKit/Pods-HGPhotoKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HGPhotoKit/Pods-HGPhotoKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HGPhotoKit/Pods-HGPhotoKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F36BFC51DC48AEB76C776D44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HGPhotoKitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE8CF26FD90859944384C95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HGPhotoKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2E65AF5222BA57D800D34313 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E65AFF522BA5E4900D34313 /* HGPhotoPreviewController.m in Sources */,
+				2E65AFED22BA5E4900D34313 /* HGImageManager.m in Sources */,
+				2E65AFF322BA5E4900D34313 /* HGImagePickerController.m in Sources */,
+				2E65AFF022BA5E4900D34313 /* HGAssetModel.m in Sources */,
 				2E65AF5E22BA57D800D34313 /* ViewController.m in Sources */,
+				2E65AFF222BA5E4900D34313 /* HGVideoPlayerController.m in Sources */,
+				2E65AFEC22BA5E4900D34313 /* HGLocationManager.m in Sources */,
+				2E65AFF622BA5E4900D34313 /* NSBundle+HGImagePicker.m in Sources */,
+				2E65AFF922BA5E4900D34313 /* UIView+Layout.m in Sources */,
+				2E65AFF122BA5E4900D34313 /* HGImageCropManager.m in Sources */,
 				2E65AF6922BA57D900D34313 /* main.m in Sources */,
+				2E65AFF822BA5E4900D34313 /* HGPhotoPreviewCell.m in Sources */,
+				2E65AFFA22BA5E4900D34313 /* HGProgressView.m in Sources */,
+				2E65AFF422BA5E4900D34313 /* HGImageRequestOperation.m in Sources */,
+				2E65AFCC22BA5E3200D34313 /* UIViewController+Image.m in Sources */,
+				2E65AFEF22BA5E4900D34313 /* HGPhotoPickerController.m in Sources */,
 				2E65AF5B22BA57D800D34313 /* AppDelegate.m in Sources */,
+				2E65AFFB22BA5E4900D34313 /* HGAssetCell.m in Sources */,
+				2E65AFF722BA5E4900D34313 /* HGGifPhotoPreviewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,10 +671,11 @@
 		};
 		2E65AF8322BA57D900D34313 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9376BDF7DC21792AFC0883A9 /* Pods-HGPhotoKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 25F3RKJN6L;
+				DEVELOPMENT_TEAM = NC23GKVB2Q;
 				INFOPLIST_FILE = HGPhotoKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,10 +689,11 @@
 		};
 		2E65AF8422BA57D900D34313 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C6CE22840884832CA1754CD /* Pods-HGPhotoKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 25F3RKJN6L;
+				DEVELOPMENT_TEAM = NC23GKVB2Q;
 				INFOPLIST_FILE = HGPhotoKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -467,6 +707,7 @@
 		};
 		2E65AF8622BA57D900D34313 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A644CA1D74C7B5AAA0A7E916 /* Pods-HGPhotoKitTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +727,7 @@
 		};
 		2E65AF8722BA57D900D34313 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A3AA996B89C9019C21F7BD /* Pods-HGPhotoKitTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +747,7 @@
 		};
 		2E65AF8922BA57D900D34313 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDA16FA95D09B02F65484F65 /* Pods-HGPhotoKitUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25F3RKJN6L;
@@ -523,6 +766,7 @@
 		};
 		2E65AF8A22BA57D900D34313 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 282C20B4FE33303CAE3627B8 /* Pods-HGPhotoKitUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25F3RKJN6L;
