@@ -9,5 +9,7 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/pengweijunPanda/HGPhotoKit.git", :tag => s.version }
     s.source_files = "HGPhotoKit/Classes/*.{h,m}" 
     s.requires_arc = true 
-   
+
+
+    s.dependency 'YYKit'
 end
