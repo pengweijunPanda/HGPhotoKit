@@ -1,2 +1,2 @@
-# HGPhotoKit
-基于 https://github.com/banchichen/TZImagePickerController 修改的图片工具类
+# PPTestPhotoKit
+PPTestPhotoKit1PPTestPhotoKit2PPTestPhotoKit3
